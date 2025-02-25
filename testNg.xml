@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="RateCalculator" >
+    <!--<listeners>
+        <listener class-name="com.collectionlist.listners.TestListener" />
+    </listeners>-->
+    <parameter name="browser" value="chrome"></parameter>
+
+    <test name="com.ratecalculator.pages.DashboardPage">
+        <classes>
+            <class name="com.ratecalculator.tests.DashBoardTest"/>
+        </classes>
+    </test>
+</suite>
